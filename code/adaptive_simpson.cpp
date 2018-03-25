@@ -1,5 +1,5 @@
 //
-// Adaptive Simpson's Rule
+// Adaptive Simpson's Rule (Wikipedia Article)
 //
 dbl adaptiveSimpsons(dbl (*f)(dbl),   // ptr to function
                            dbl a, dbl b,  // interval [a,b]

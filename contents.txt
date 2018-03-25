@@ -66,3 +66,8 @@ Dates.java	Dates (Java)
 #FastExpo.cc	Fast exponentiation
 #LCS.cc	Longest common subsequence
 #MillerRabin.c	Miller-Rabin Primality Test (C)
+
+[Hussain]
+adaptive_simpson.cpp	Adaptive Simpson
+binomial_coeff.cpp	Binomial Coeff (constant N)
+generate_all_x_and_y_equals_y.cpp	Generate (x,y) pairs s.t. x AND y=y
