@@ -73,5 +73,5 @@ binomial_coeff.cpp	Binomial Coeff (constant N)
 generate_all_x_and_y_equals_y.cpp	Generate (x,y) pairs s.t. x AND y=y
 
 [Malek]
-Bridges.cpp Finding bridges in graph
-LCACent.cpp LCA(Sparse Table) & Centroid Decomposition
+Bridges.cpp	Finding bridges in graph
+LCACent.cpp	LCA(Sparse Table) and Centroid Decomposition
