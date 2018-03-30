@@ -78,3 +78,4 @@ LCACent.cpp	LCA(Sparse Table) and Centroid Decomposition
 
 [Marsil]
 complexgeomtry.cpp 2D geomtry using Complex
+ModularSegTree.cpp bottom up lasy segment tree
