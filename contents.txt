@@ -19,9 +19,12 @@ MinCut.cc	Global min-cut
 ConvexHull.cc	Convex hull
 Geometry.cc	Miscellaneous geometry
 #JavaGeometry.java	Java geometry
-#Geom3D.java	3D geometry
+Geom3D.java	3D geometry
+Geometry3d.cpp	3D geometry -Ashley
 #Delaunay.cc	Slow Delaunay triangulation
 #Delaunay.java	Slow Delaunay triangulation (Java)
+Circles.cpp	Circles
+parab_line_inter.cpp	Parabola Circle Intersection
 
 [Numerical algorithms]
 Euclid.cc	Number theory (modular, Chinese remainder, linear Diophantine)
@@ -30,6 +33,7 @@ ReducedRowEchelonForm.cc	Reduced row echelon form, matrix rank
 #FFT_new.cc	Fast Fourier transform
 #Simplex.cc	Simplex algorithm
 #FFT.cc	Fast Fourier transform (C++)
+NumberTheoryEssentials.cpp	Number Theory Essentials
 
 [Graph algorithms]
 #BellmanFord.cc	Bellman-Ford shortest paths with negative edge weights (C++)
@@ -71,6 +75,7 @@ Dates.java	Dates (Java)
 adaptive_simpson.cpp	Adaptive Simpson
 binomial_coeff.cpp	Binomial Coeff (constant N)
 generate_all_x_and_y_equals_y.cpp	Generate (x,y) pairs s.t. x AND y=y
+indexOfLSB.cpp	Index of LSB
 
 [Malek]
 Bridges.cpp	Finding bridges in graph
@@ -79,3 +84,4 @@ LCACent.cpp	LCA(Sparse Table) and Centroid Decomposition
 [Marsil]
 complexgeomtry.cpp	2D geomtry using Complex
 ModularSegTree.cpp	bottom up lasy segment tree
+ordered_statiscs.cpp	Ordered Statistics Tree
