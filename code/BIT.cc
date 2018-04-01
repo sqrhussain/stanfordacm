@@ -38,3 +38,32 @@ int getind(int x) {
   }
   return idx;
 }
+
+//range update source http://petr-mitrichev.blogspot.com/2013/05/fenwick-tree-range-updates.html
+int dataMul[N+1];
+int dataAdd[N+1]
+void internalUpdate(int at, int mul, int add) {
+    while (at <= N) {
+        dataMul[at] += mul;
+        dataAdd[at] += add;
+        at |= (at + 1);
+    }
+}
+
+void update(int left, int right, int by) {
+    internalUpdate(left, by, -by * (left - 1));
+    internalUpdate(right, -by, by * right);
+}
+
+
+private int query(int at) {
+    int mul = 0;
+    int add = 0;
+    int start = at;
+    while (at >= 0) {
+        mul += dataMul[at];
+        add += dataAdd[at];
+        at = (at & (at + 1)) - 1;
+    }
+    return mul * start + add;
+}
