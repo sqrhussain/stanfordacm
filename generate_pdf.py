@@ -53,6 +53,7 @@ def get_tex(sections):
             tex += '\\raggedbottom\\lstinputlisting[style=%s]{%s/%s}\n' % (get_style(filename), code_dir, filename)
             tex += '\\hrulefill\n'
         tex += '\n'
+    tex += '\\section{Laws}\n\\input{tut1.tex}'
     return tex
 
 if __name__ == "__main__":

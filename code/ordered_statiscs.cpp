@@ -1,6 +1,4 @@
 
-#define lp(i,n) for (int i = 0; i < (int)(n); ++i)
-
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 
