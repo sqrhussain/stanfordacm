@@ -55,8 +55,7 @@ void update(int left, int right, int by) {
     internalUpdate(right, -by, by * right);
 }
 
-
-private int query(int at) {
+ int query(int at) {
     int mul = 0;
     int add = 0;
     int start = at;
