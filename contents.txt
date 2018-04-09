@@ -81,6 +81,7 @@ indexOfLSB.cpp	Index of LSB
 Bridges.cpp	Finding bridges in graph
 LCACent.cpp	LCA(Sparse Table) and Centroid Decomposition
 ds_dynamic_convex_hull.cpp  Convex Hull Trick
+ConvexHullLinear.cpp  Convex Hull Trick <stack>
 
 [Marsil]
 complexgeomtry.cpp	2D geomtry using Complex
