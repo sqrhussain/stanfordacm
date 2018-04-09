@@ -25,6 +25,7 @@ Geometry3d.cpp	3D geometry -Ashley
 #Delaunay.java	Slow Delaunay triangulation (Java)
 Circles.cpp	Circles
 parab_line_inter.cpp	Parabola Circle Intersection
+wahabGeometry.cpp	Fegla Geometry
 
 [Numerical algorithms]
 Euclid.cc	Number theory (modular, Chinese remainder, linear Diophantine)
@@ -80,8 +81,8 @@ indexOfLSB.cpp	Index of LSB
 [Malek]
 Bridges.cpp	Finding bridges in graph
 LCACent.cpp	LCA(Sparse Table) and Centroid Decomposition
-ds_dynamic_convex_hull.cpp  Convex Hull Trick
-ConvexHullLinear.cpp  Convex Hull Trick <stack>
+ds_dynamic_convex_hull.cpp	Convex Hull Trick
+ConvexHullLinear.cpp	Convex Hull Trick (stack)
 
 [Marsil]
 complexgeomtry.cpp	2D geomtry using Complex
