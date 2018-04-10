@@ -88,3 +88,4 @@ ConvexHullLinear.cpp	Convex Hull Trick (stack)
 complexgeomtry.cpp	2D geomtry using Complex
 ModularSegTree.cpp	bottom up lasy segment tree
 ordered_statiscs.cpp	Ordered Statistics Tree
+FurthestTwoPoints.cpp Furthest Two Points (Diameter of a Polygon)
