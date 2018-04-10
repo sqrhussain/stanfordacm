@@ -1,0 +1,39 @@
+Fegla:
+Let a fresh member read it and hear from him (don't affect him)
+TLE
+Choosing all combination of N items is of order 2^N using recursion and N*(2^N) if using bitmasked loop
+avoid division, mod and multiplication operations if u got TLE
+incorrect input reading/termination (watch for empty lines)
+Runtime bugs: -Index out of boundaries -Stack overflow -integer division by zero -Calling Integer.pareseInt with invalid string- incorrect input reading (getline)- empty lines in input
+3) In C++ : memcpy and memset don't work normally with very large arrays
+In the first hour:
+1- no interrupts, hunting for aces, and reading problems as much as you can.
+2- read the problems to the end including the input and the output section and put a rough estimate for the problem.
+3- never not to complete reading a problem to the end.
+starting second hour:
+1- all problems codes must be written on papers.
+2- the written code should be written in a clean way.
+3- the code should be scanned from the papers to the machine and compile.
+starting third hour:
+1- the scoreboard is a good guide to see which problems you should solve.
+2- schedule for the next 2 hours which problems to start with and which to delay.
+in the last hour:
+1- do not start coding a problem in the last hour unless you got accepted in all the other tried problems.
+2- do your best to solve all the written problems.
+
+
+Not fegla
+Make sure you read all the problems as early as possible
+Take time thinking and tackle all cases before you touch the machine (if you still feel there is something missing, don’t TOUCC)
+Sketch code following fegla’s instructions
+Test code components on the run, and independently
+Slow and clean > fast and buggy
+
+Before submission
+Have you tested stupid boundaries? small , large, negative, n!=m, swap(n,m), 1 row, 1 column
+Test ALL samples
+Initialization for mult TCs
+Prove int vs long
+printf(“%lld”,ans);
+cin>>double; is always better
+
